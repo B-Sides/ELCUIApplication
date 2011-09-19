@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7EB80D81427E9B00007CDAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EB80D71427E9B00007CDAB /* UIKit.framework */; };
+		C7EB80DA1427E9B00007CDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EB80D91427E9B00007CDAB /* Foundation.framework */; };
+		C7EB80DC1427E9B00007CDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EB80DB1427E9B00007CDAB /* CoreGraphics.framework */; };
+		C7EB80E21427E9B00007CDAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EB80E01427E9B00007CDAB /* InfoPlist.strings */; };
+		C7EB80E41427E9B00007CDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EB80E31427E9B00007CDAB /* main.m */; };
+		C7EB80E81427E9B00007CDAB /* TimeoutTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EB80E71427E9B00007CDAB /* TimeoutTestAppDelegate.m */; };
+		C7EB80EB1427E9B00007CDAB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EB80E91427E9B00007CDAB /* MainWindow.xib */; };
+		C7EB80EE1427E9B00007CDAB /* TimeoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EB80ED1427E9B00007CDAB /* TimeoutTestViewController.m */; };
+		C7EB80F11427E9B00007CDAB /* TimeoutTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EB80EF1427E9B00007CDAB /* TimeoutTestViewController.xib */; };
+		C7EB80FE1427ECD40007CDAB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EB80FC1427ECD40007CDAB /* LoginViewController.m */; };
+		C7EB80FF1427ECD40007CDAB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EB80FD1427ECD40007CDAB /* LoginViewController.xib */; };
+		C7EB81021427F7750007CDAB /* ELCUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EB81001427F7750007CDAB /* ELCUIApplication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7EB80D31427E9B00007CDAB /* TimeoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EB80D71427E9B00007CDAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7EB80D91427E9B00007CDAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7EB80DB1427E9B00007CDAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7EB80DF1427E9B00007CDAB /* TimeoutTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeoutTest-Info.plist"; sourceTree = "<group>"; };
+		C7EB80E11427E9B00007CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EB80E31427E9B00007CDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EB80E51427E9B00007CDAB /* TimeoutTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeoutTest-Prefix.pch"; sourceTree = "<group>"; };
+		C7EB80E61427E9B00007CDAB /* TimeoutTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeoutTestAppDelegate.h; sourceTree = "<group>"; };
+		C7EB80E71427E9B00007CDAB /* TimeoutTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeoutTestAppDelegate.m; sourceTree = "<group>"; };
+		C7EB80EA1427E9B00007CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C7EB80EC1427E9B00007CDAB /* TimeoutTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeoutTestViewController.h; sourceTree = "<group>"; };
+		C7EB80ED1427E9B00007CDAB /* TimeoutTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeoutTestViewController.m; sourceTree = "<group>"; };
+		C7EB80F01427E9B00007CDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimeoutTestViewController.xib; sourceTree = "<group>"; };
+		C7EB80FB1427ECD40007CDAB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C7EB80FC1427ECD40007CDAB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C7EB80FD1427ECD40007CDAB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C7EB81001427F7750007CDAB /* ELCUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCUIApplication.m; sourceTree = SOURCE_ROOT; };
+		C7EB81011427F7750007CDAB /* ELCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCUIApplication.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EB80D01427E9B00007CDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EB80D81427E9B00007CDAB /* UIKit.framework in Frameworks */,
+				C7EB80DA1427E9B00007CDAB /* Foundation.framework in Frameworks */,
+				C7EB80DC1427E9B00007CDAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EB80C81427E9AF0007CDAB = {
+			isa = PBXGroup;
+			children = (
+				C7EB80DD1427E9B00007CDAB /* TimeoutTest */,
+				C7EB80D61427E9B00007CDAB /* Frameworks */,
+				C7EB80D41427E9B00007CDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EB80D41427E9B00007CDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB80D31427E9B00007CDAB /* TimeoutTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EB80D61427E9B00007CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB80D71427E9B00007CDAB /* UIKit.framework */,
+				C7EB80D91427E9B00007CDAB /* Foundation.framework */,
+				C7EB80DB1427E9B00007CDAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EB80DD1427E9B00007CDAB /* TimeoutTest */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB81011427F7750007CDAB /* ELCUIApplication.h */,
+				C7EB81001427F7750007CDAB /* ELCUIApplication.m */,
+				C7EB80E61427E9B00007CDAB /* TimeoutTestAppDelegate.h */,
+				C7EB80E71427E9B00007CDAB /* TimeoutTestAppDelegate.m */,
+				C7EB80E91427E9B00007CDAB /* MainWindow.xib */,
+				C7EB80EC1427E9B00007CDAB /* TimeoutTestViewController.h */,
+				C7EB80ED1427E9B00007CDAB /* TimeoutTestViewController.m */,
+				C7EB80EF1427E9B00007CDAB /* TimeoutTestViewController.xib */,
+				C7EB80DE1427E9B00007CDAB /* Supporting Files */,
+				C7EB80FB1427ECD40007CDAB /* LoginViewController.h */,
+				C7EB80FC1427ECD40007CDAB /* LoginViewController.m */,
+				C7EB80FD1427ECD40007CDAB /* LoginViewController.xib */,
+			);
+			path = TimeoutTest;
+			sourceTree = "<group>";
+		};
+		C7EB80DE1427E9B00007CDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB80DF1427E9B00007CDAB /* TimeoutTest-Info.plist */,
+				C7EB80E01427E9B00007CDAB /* InfoPlist.strings */,
+				C7EB80E31427E9B00007CDAB /* main.m */,
+				C7EB80E51427E9B00007CDAB /* TimeoutTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EB80D21427E9B00007CDAB /* TimeoutTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EB80F41427E9B00007CDAB /* Build configuration list for PBXNativeTarget "TimeoutTest" */;
+			buildPhases = (
+				C7EB80CF1427E9B00007CDAB /* Sources */,
+				C7EB80D01427E9B00007CDAB /* Frameworks */,
+				C7EB80D11427E9B00007CDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeoutTest;
+			productName = TimeoutTest;
+			productReference = C7EB80D31427E9B00007CDAB /* TimeoutTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EB80CA1427E9AF0007CDAB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C7EB80CD1427E9AF0007CDAB /* Build configuration list for PBXProject "TimeoutTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7EB80C81427E9AF0007CDAB;
+			productRefGroup = C7EB80D41427E9B00007CDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EB80D21427E9B00007CDAB /* TimeoutTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EB80D11427E9B00007CDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EB80E21427E9B00007CDAB /* InfoPlist.strings in Resources */,
+				C7EB80EB1427E9B00007CDAB /* MainWindow.xib in Resources */,
+				C7EB80F11427E9B00007CDAB /* TimeoutTestViewController.xib in Resources */,
+				C7EB80FF1427ECD40007CDAB /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EB80CF1427E9B00007CDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EB80E41427E9B00007CDAB /* main.m in Sources */,
+				C7EB80E81427E9B00007CDAB /* TimeoutTestAppDelegate.m in Sources */,
+				C7EB80EE1427E9B00007CDAB /* TimeoutTestViewController.m in Sources */,
+				C7EB80FE1427ECD40007CDAB /* LoginViewController.m in Sources */,
+				C7EB81021427F7750007CDAB /* ELCUIApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EB80E01427E9B00007CDAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EB80E11427E9B00007CDAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7EB80E91427E9B00007CDAB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EB80EA1427E9B00007CDAB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C7EB80EF1427E9B00007CDAB /* TimeoutTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EB80F01427E9B00007CDAB /* en */,
+			);
+			name = TimeoutTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EB80F21427E9B00007CDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7EB80F31427E9B00007CDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EB80F51427E9B00007CDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeoutTest/TimeoutTest-Prefix.pch";
+				INFOPLIST_FILE = "TimeoutTest/TimeoutTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7EB80F61427E9B00007CDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeoutTest/TimeoutTest-Prefix.pch";
+				INFOPLIST_FILE = "TimeoutTest/TimeoutTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EB80CD1427E9AF0007CDAB /* Build configuration list for PBXProject "TimeoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EB80F21427E9B00007CDAB /* Debug */,
+				C7EB80F31427E9B00007CDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EB80F41427E9B00007CDAB /* Build configuration list for PBXNativeTarget "TimeoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EB80F51427E9B00007CDAB /* Debug */,
+				C7EB80F61427E9B00007CDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EB80CA1427E9AF0007CDAB /* Project object */;
+}
